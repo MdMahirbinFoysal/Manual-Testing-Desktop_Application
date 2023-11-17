@@ -1,0 +1,506 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Component/s,Due Date,Votes,Description,Environment,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (End Date),Custom field (Epic Link),Custom field (Error Type),Custom field (Expected Result),Custom field (Found by),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Solution),Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (TestLink case),Custom field (Time Category),Custom field (Type of engagement),Custom field (URL),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment
+File: Create Gallery: Creating a gallery is possible when more than 4000 picture is opened in the window,QATC-813236,3488646,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 10:45 PM,09/Aug/23 5:05 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder that has more than 4000 pictures by clicking on the File the Folder
+ # After fetching Click on the file then Click on Create Gallery
+ # Click on Create 
+ # Then click on Ok
+ # Opened the create folder and count the pictures
+
+*Actual Result:* Creating a gallery is possible when more than 4000 picture is opened in the window.
+
+*Expected Result:* The window can open only 4000 pictures at a time. The gallery should be created less or equal to 4000 pictures.
+
+ ","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 10:45 PM;m.foysal;4000+ images are opened in the window.mp4;https://jira.a1qa.com/secure/attachment/2392792/4000%2B+images+are+opened+in+the+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhvjb:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Title Bar: The title bar background color is the same as the window color,QATC-813222,3488496,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 8:34 PM,09/Aug/23 5:05 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Observed the title bar color and window color
+
+*Actual Result:* The title bar background color is the same as the window color
+
+*Expected Result:* The title bar color should be different from the window color","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 8:34 PM;m.foysal;title bar color.jpg;https://jira.a1qa.com/secure/attachment/2392750/title+bar+color.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhunz:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Options: Language: Only the options dialog language is changed when the application language is changed,QATC-813221,3488446,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 7:52 PM,09/Aug/23 5:05 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to Reproduce:*
+ # Open the Kimba 2 application
+ # Click on Options
+ # Click on the language slide-down arrow
+ # Click on Deutsch
+ # Click on apply
+ # Close the application and then open the application
+ # Observed the window language and all options language
+
+*Actual Result:* Only the options dialog language is changed when the application language is changed
+
+*Expected Result:* Whole application language should be changed with all options.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 5:22 PM;m.foysal;language are not changed.mp4;https://jira.a1qa.com/secure/attachment/2392730/language+are+not+changed.mp4","04/Aug/23 5:25 PM;m.foysal;language requirement.jpg;https://jira.a1qa.com/secure/attachment/2392729/language+requirement.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhue7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Kimba 2: No confirmation message is displayed when closing the application by clicking on the cross  button,QATC-813220,3488445,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 7:51 PM,09/Aug/23 5:05 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the application
+ # Open an image folder by clicking on the file then folder
+ # After fetching apply some changes in the displayed picture
+ # Click on the cross button from the top right title bar
+ # Observed the result
+
+*Actual Result:* No confirmation message is displayed when closing the application by clicking on the cross  button
+
+*Expected Result:* A confirmation message window should be displayed when apply some changes and close the window. A confirmation message like "" Are you sure to close the window""  there should be two buttons ""Save and close"" and ""close without save""
+
+ ","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 7:47 PM;m.foysal;without popup mesage its close the window.mp4;https://jira.a1qa.com/secure/attachment/2392728/without+popup+mesage+its+close+the+window.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhudz:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Folder: The total selected image number is not displayed when one or more image is select,QATC-813217,3488430,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 7:33 PM,09/Aug/23 5:04 PM,17/Nov/23 9:07 PM,09/Aug/23 5:04 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder by clicking on the file then folder
+ # After fetching select some image randomly by press on ctrl and right key
+ # Observed the window 
+ # There is no total  selected  number 
+
+*Actual Result:* The total selected image number is not displayed when one or more image is select
+
+*Expected Result:* The total number of selected images should be displayed at the bottom of the left-side window","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 7:33 PM;m.foysal;Total number of selected image is missing.mp4;https://jira.a1qa.com/secure/attachment/2392661/Total+number+of+selected+image+is+missing.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhuan:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Edit: Select as Cover: The selected picture doesn't display a visual marked with a border when select as cover,QATC-813215,3488420,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 7:22 PM,09/Aug/23 5:04 PM,17/Nov/23 9:07 PM,09/Aug/23 5:04 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder by clicking on the file then folder
+ # After fetching select a picture
+ # Click on Edit then Click on Select as Cover
+ # Observed the result
+
+*Actual Result:* The selected picture doesn't display a visual marked with a border when select as cover
+
+*Expected Result:* The selected picture should be displayed a visual marked with a border then select as cover","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 7:22 PM;m.foysal;Select as cover.jpg;https://jira.a1qa.com/secure/attachment/2392651/Select+as+cover.jpg","04/Aug/23 7:22 PM;m.foysal;select as cover.mp4;https://jira.a1qa.com/secure/attachment/2392650/select+as+cover.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhu8f:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Kimba 2: Menu Bar: The menu items bar is displayed without the vertical bar when opening the application,QATC-813213,3488413,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 7:10 PM,09/Aug/23 5:04 PM,17/Nov/23 9:07 PM,09/Aug/23 5:04 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Observed the menu items
+ # There is no vertical bar in the middle of the two items
+
+*Actual Result:* The menu items bar is displayed without the vertical bar when opening the application
+
+{*}Expected Result{*}: The menu items bar should be displayed with the vertical bar in the middle of the two items","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 7:10 PM;m.foysal;verticale bar is missing.jpg;https://jira.a1qa.com/secure/attachment/2392645/verticale+bar+is+missing.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhu6v:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+File: Create Gallery: Thumbnails picture display size is large than the Big picture when creating a gallery,QATC-813203,3488368,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 5:44 PM,09/Aug/23 5:06 PM,17/Nov/23 9:07 PM,09/Aug/23 5:06 PM,2.0,Kimba,,0,"*Steps to Reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder by clicking on file then folder
+ # After fetching Click on file then Create Gallery
+ # Go to the Create kimba folder
+ # Observed the Big and Thumbnails picture
+
+*Actual Result:* Thumbnails picture display size is large than the Big picture when creating a gallery
+
+*Expected Result:* The thumbnail picture display size should be small than the Big picture display size.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 5:44 PM;m.foysal;big and thumbnails are not displayed correctly.mp4;https://jira.a1qa.com/secure/attachment/2392589/big+and+thumbnails+are+not+displayed+correctly.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhtxb:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Create Gallery: Auto optimize option is not applied any changes when a gallery is created,QATC-813189,3488321,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 4:59 PM,09/Aug/23 5:04 PM,17/Nov/23 9:07 PM,09/Aug/23 5:04 PM,2.0,Kimba,,0,"*Steps to reproduce*
+ # Open Kimba 2 application
+ # Open a folder by clicking on file then click on folder
+ # After images fetching click on file then create gallery
+ # Then click on Create 
+ # Then Click on Ok 
+ # Observed the file size and images
+ # Then click on file and then click on create folder 
+ # Checked the auto-optimized check box
+ # then Steps 4 to 5
+ # Observed the Image 
+
+*Actual Result:* Auto optimize option is not applied any changes when a gallery is created
+
+*Expected Result:* Auto optimized option should enhance the color, sharpness and brightness.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 4:59 PM;m.foysal;Auto optimized requirement.jpg;https://jira.a1qa.com/secure/attachment/2392542/Auto+optimized+requirement.jpg","04/Aug/23 4:58 PM;m.foysal;auto optimized.jpg;https://jira.a1qa.com/secure/attachment/2392544/auto+optimized.jpg","04/Aug/23 4:40 PM;m.foysal;Create folder without auto optimized.mp4;https://jira.a1qa.com/secure/attachment/2392546/Create+folder+without+auto+optimized.mp4","04/Aug/23 4:45 PM;m.foysal;with auto optimized.mp4;https://jira.a1qa.com/secure/attachment/2392545/with+auto+optimized.mp4","04/Aug/23 4:58 PM;m.foysal;without auto optimized.jpg;https://jira.a1qa.com/secure/attachment/2392543/without+auto+optimized.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhtn3:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Edit: Delete: All picture changes are reset when an picture is deleted from the window,QATC-813178,3488276,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 4:10 PM,09/Aug/23 5:06 PM,17/Nov/23 9:07 PM,09/Aug/23 5:06 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open Kimba 2 application
+ # Open an image folder by clicking on the file then folder
+ # Apply some changes in the displayed picture like Rotate, Flip
+ # Select an image then delete it from the Edit options
+ # Observed the result
+
+*Actual Result:* All picture changes are reset when an picture is deleted from the window
+
+*Expected Result:* All picture changes should be the same when a picture is deleted
+
+*Additional Information:* When large size image folder is opened and delete an image only 2/4 pictures are displayed after deletion.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 4:10 PM;m.foysal;after deletation only two or four picture are displayed.mp4;https://jira.a1qa.com/secure/attachment/2392499/after+deletation+only+two+or+four+picture+are+displayed.mp4","04/Aug/23 4:06 PM;m.foysal;chanes are reset when delete a picture.mp4;https://jira.a1qa.com/secure/attachment/2392500/chanes+are+reset+when+delete+a+picture.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhtdb:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Edit: Rotate Left: The Rotate left function is not working when large size picture folder is opened,QATC-813168,3488246,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 3:47 PM,09/Aug/23 5:03 PM,17/Nov/23 9:07 PM,09/Aug/23 5:03 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open Kimba 2 aplication
+ # Open an image folder that has large resolution image and a total size of more than 92MB
+ # Select an picture then Click on Edit
+ # Click on Rotate left 
+ # Observed the result
+
+*Actual Result:* The Rotate left function is not working when large size picture folder is opened
+
+*Expected Result:* The Rotate left function should be rotated left the picture
+
+*Additional Information:* This issue is the same for the Rotate Right, Flip Vertical, Flip Horizontal, and Optimized buttons.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 3:47 PM;m.foysal;Edit functon are not working.mp4;https://jira.a1qa.com/secure/attachment/2392476/Edit+functon+are+not+working.mp4","04/Aug/23 4:16 PM;m.foysal;Select all image edit option are not working.mp4;https://jira.a1qa.com/secure/attachment/2392513/Select+all+image+edit+option+are+not+working.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idht6v:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,"04/Aug/23 4:16 PM;m.foysal;*Additional Information:* Select all displayed image and Rotate left, Right, Flip Vertical, Flip Horizontal has the same issue.[^Select all image edit option are not working.mp4];;;"
+File: Folder: All images are not displayed when a folder open with large size picture,QATC-813165,3488233,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 3:29 PM,09/Aug/23 5:02 PM,17/Nov/23 9:07 PM,09/Aug/23 5:02 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder by clicking on the file then the folder
+ # Observed the displayed image
+ # Observed the folder all image
+ # Some images are not displayed
+
+*Actual Result:* All images are not displayed when a folder open with large size picture
+
+*Expected Result:* All images should be displayed when a folder opens.
+
+*Additional Information:* This issue happens when a folder has high-resolution and low-resolution mixed pictures all low-resolution and some high-resolution pictures are opened up to 92MB.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 3:17 PM;m.foysal;Pictures are not opened in the window.mp4;https://jira.a1qa.com/secure/attachment/2392467/Pictures+are+not+opened+in+the+window.mp4","04/Aug/23 3:28 PM;m.foysal;when file size is more than 92 MB.mp4;https://jira.a1qa.com/secure/attachment/2392466/when+file+size+is+more+than+92+MB.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idht3z:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Uninstallation: Options: Options dialog value are not reset when uninstalling and reinstalling the application,QATC-813071,3488046,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 3:03 AM,09/Aug/23 5:02 PM,17/Nov/23 9:07 PM,09/Aug/23 5:02 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 application
+ # Click on options
+ # Changes the default value
+ # Click on Apply
+ # Uninstalled the application
+ # Reinstalled the application
+ # Then again Steps 1 and 2
+ # Observed the result
+
+*Actual Result:* Options dialog value are not reset when uninstalling and reinstalling the application
+
+*Expected Result:* Options dialog value should be reset and displayed default value when uninstalled and reinstalled.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 3:02 AM;m.foysal;Options dialog value are not reset.mp4;https://jira.a1qa.com/secure/attachment/2392281/Options+dialog+value+are+not+reset.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhryn:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Folder: Larger than 5MB size pictures are displayed in the window when a picture folder is opened,QATC-813040,3488001,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 1:17 AM,09/Aug/23 5:02 PM,17/Nov/23 9:07 PM,09/Aug/23 5:02 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open an image folder by Clicking file then folder
+ # Observed the window 
+ # Picture are displayed
+
+*Actual Result:* Larger than 5MB size pictures are displayed in the window when a picture folder is opened
+
+*Expected Result:* Only 5MB or less size picture should be displayed in the application window","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 1:17 AM;m.foysal;5MB or less image should be displayed.mp4;https://jira.a1qa.com/secure/attachment/2392228/5MB+or+less+image+should+be+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhron:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Folder: Some blank image grid is displayed when maximize the window,QATC-813029,3487987,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 12:56 AM,09/Aug/23 5:01 PM,17/Nov/23 9:07 PM,09/Aug/23 5:01 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open an image folder from file then click on folder
+ # Wait for load 9 or 10 picture
+ # Expand the window
+ # Observed the result
+
+*Actual Result:* Some blank image grid is displayed when maximizing the window
+
+*Expected Result:*  All image grids should be filled by opened picture","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 12:56 AM;m.foysal;blank grid.mp4;https://jira.a1qa.com/secure/attachment/2392215/blank+grid.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhrlj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Folder: Adding some pictures to the existing folder and when refreshing the window it doesn't display all photos,QATC-813025,3487981,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,04/Aug/23 12:44 AM,09/Aug/23 5:01 PM,17/Nov/23 9:07 PM,09/Aug/23 5:01 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open an image folder by clicking on the file then folder options
+ # Add some pictures in the opened folder
+ # Click on file then click on Refresh
+ # Observed the result:
+
+*Actual Result:* Adding some pictures to the existing folder and when refreshing the window it doesn't display all photos
+
+*Expected Result:* Added all pictures should be displayed after the previously displayed picture
+
+{*}Additional Information{*}: When some picture is added in the folder then refresh the window  previously displayed pictures are missing from the window","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 12:44 AM;m.foysal;added picture are not displayed.mp4;https://jira.a1qa.com/secure/attachment/2392206/added+picture+are+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhrk7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Folder: Current folder Images are not displayed correctly when existing folder images are displayed,QATC-812993,3487941,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 11:22 PM,09/Aug/23 5:06 PM,17/Nov/23 9:07 PM,09/Aug/23 5:06 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open Kimba 2 application
+ # Open an Image folder by clicking on file then folder
+ # Wait until show ready
+ # Open another image Folder by clicking on file then Folder
+ # Observed the Result
+
+*Actual Result:* Current folder Images are not displayed correctly when existing folder images are displayed
+
+*Expected Result:* The current folder image should be displayed properly.
+
+*Additional information:* When a folder is open and try to reopen this folder only 2/4 image is displayed. sometimes it displayed an empty window.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 11:22 PM;m.foysal;Current folder image is not displayed.mp4;https://jira.a1qa.com/secure/attachment/2392163/Current+folder+image+is+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhrbb:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Edit: Optimize: Changes are not displayed in the main window when some change is applied in the optimize window,QATC-812986,3487924,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 10:52 PM,09/Aug/23 5:01 PM,17/Nov/23 9:07 PM,09/Aug/23 5:01 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open Kimba 2 application
+ # Open an Image folder
+ # Select an image then Click on Edit
+ # Click on optimize
+ # Rotate left or right 
+ # Click on apply
+ # Observed the image
+
+*Actual Result:* Changes are not displayed in the main window when some change is applied in the optimize window
+
+*Expected Result:* Changes should be displayed in the main window when some change is applied in the optimized window
+
+*Additional Information:*  When a image is opened in the optimized window doing some changes but not click on apply then close the window and then reopen the image. The image is displayed in changes mode not is actual mode.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 10:51 PM;m.foysal;apply changes and not apply.mp4;https://jira.a1qa.com/secure/attachment/2392148/apply+changes+and+not+apply.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhr7j:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Edit: Optimize: The first selected image is not displayed in the optimize window when more than one picture is selected,QATC-812817,3487281,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 3:18 AM,09/Aug/23 5:00 PM,17/Nov/23 9:07 PM,09/Aug/23 5:00 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open an image folder
+ # Select more than one picture
+ # Click on Edit then click on optimize
+ # Observed the displayed image 
+ # Observed the optimized window
+
+*Actual Result:* The first selected image is not displayed in the optimize window when more than one picture is selected
+
+*Expected Result:* The first selected image should be displayed in the optimized window
+
+*Additional Information:* When more than one picture is opened in the optimized window there should be a button ""Apply to all ( selected like 4,10) picture"". ","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 3:18 AM;m.foysal;more than one picture is opned.jpg;https://jira.a1qa.com/secure/attachment/2391643/more+than+one+picture+is+opned.jpg","03/Aug/23 3:18 AM;m.foysal;more than one picture is opned.mp4;https://jira.a1qa.com/secure/attachment/2391642/more+than+one+picture+is+opned.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhnav:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Edit: Optimize: The sharpness slider is disabled when the optimize window is opened,QATC-812813,3487274,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 3:00 AM,09/Aug/23 5:00 PM,17/Nov/23 9:07 PM,09/Aug/23 5:00 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open an image folder
+ # Select a image
+ # Click on Edit then click on optimize
+ # Try to move the sharpness slider
+ # Observed the result
+
+*Actual Result:* The sharpness slider is disabled when the optimize window is opened
+
+*Expected Result:* The sharpness slider should be movable or functional
+
+*Additional Information:* This issue is the same for Brightness and Contrast slider.","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 3:00 AM;m.foysal;slider is not working.jpg;https://jira.a1qa.com/secure/attachment/2391638/slider+is+not+working.jpg","03/Aug/23 3:00 AM;m.foysal;slider is not working.mp4;https://jira.a1qa.com/secure/attachment/2391637/slider+is+not+working.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn9b:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Edit: Optimize: The auto-optimize button is disabled when opening the optimize window,QATC-812811,3487270,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 2:47 AM,09/Aug/23 5:00 PM,17/Nov/23 9:07 PM,09/Aug/23 5:00 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 application
+ # Open a folder with image
+ # Select a image
+ # Click on Edit then Click on optimized
+ # Observed the optimized window
+ # Auto Optimize button is disabled
+
+*Actual Result:* The auto-optimize button is disabled when opening the optimize window
+
+*Expected Result:* The auto-optimized button should be active when an image is opened in  the optimized window.
+
+*Additional Information:* ""Red -Eye Reduction"" button is also disabled in the optimize window","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 2:47 AM;m.foysal;auto optimized and redeye button is disabled.jpg;https://jira.a1qa.com/secure/attachment/2391633/auto+optimized+and+redeye+button+is+disabled.jpg","03/Aug/23 2:43 AM;m.foysal;auto optimized and redeye button is disabled.mp4;https://jira.a1qa.com/secure/attachment/2391634/auto+optimized+and+redeye+button+is+disabled.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn8f:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Edit: Optimize: The file name is missing when a picture is opened in the optimize window,QATC-812809,3487268,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 2:32 AM,09/Aug/23 5:00 PM,17/Nov/23 9:07 PM,09/Aug/23 5:00 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open a image folder
+ # Select a image 
+ # Click on Edit then click on optimize
+ # Observed the Optimized window
+ # There is no file name is displayed
+
+*Actual Result:* The file name is missing when a picture is opened in the optimize window
+
+*Expected Result:* The file name should be displayed when a picture is opened in the optimized window","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 2:32 AM;m.foysal;no file name is displayed.jpg;https://jira.a1qa.com/secure/attachment/2391630/no+file+name+is+displayed.jpg","03/Aug/23 2:31 AM;m.foysal;no file name is displayed.mp4;https://jira.a1qa.com/secure/attachment/2391631/no+file+name+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhn7z:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Edit: ""Order by random"" option is active when no image is displayed",QATC-812808,3487266,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 2:22 AM,09/Aug/23 4:59 PM,17/Nov/23 9:07 PM,09/Aug/23 4:59 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open The Kimba 2 applications
+ # Open a black folder 
+ # Click on Edit menu items
+ # Observed the submenu bar 
+ # Order by random option is active
+
+*Actual Result:* ""Order by random"" option is active when no image is displayed
+
+*Expected Result:* The order by random option should be disabled when no image is displayed in the window","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 2:21 AM;m.foysal;ordered by randon is active.mp4;https://jira.a1qa.com/secure/attachment/2391628/ordered+by+randon+is+active.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn7j:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+"Edit: ""Order by random"" option does not reorder pictures randomly when clicking on it",QATC-812806,3487264,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 2:14 AM,10/Aug/23 4:11 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Open a image folder
+ # Click on edit 
+ # Click on Ordered by random
+ # Observed the result
+
+*Actual Result:* ""Order by random"" option is not reordered pictures randomly when clicking on it
+
+{*}Expected Result{*}: ""Order by random"" option should be reordered all the window picture randomly","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 2:14 AM;m.foysal;ordered by randon is not working.mp4;https://jira.a1qa.com/secure/attachment/2391622/ordered+by+randon+is+not+working.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn73:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Kimba 2: keyboard delete button not deleted the selected image when pressed on it,QATC-812805,3487261,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 2:01 AM,09/Aug/23 5:05 PM,17/Nov/23 9:07 PM,09/Aug/23 5:05 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 applications
+ # Select an image by pressing the left key of the mouse
+ # Press the delete button on the keyboard 
+ # Observed the result
+
+Actual Result: keyboard delete button not deleted the selected image when pressed on it
+
+*Expected Result:* keyboard delete button should be  deleted the selected image when pressed on it
+
+*Additional information:* Ctrl + A is not select all window images, Tab button is also not working","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 2:01 AM;m.foysal;keyboard buttons is not working.mp4;https://jira.a1qa.com/secure/attachment/2391618/keyboard+buttons+is+not+working.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn6f:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Edit: ""Auto optimize all picture"" option is missing when clicking on the edit menu item",QATC-812801,3487254,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 1:37 AM,09/Aug/23 4:58 PM,17/Nov/23 9:07 PM,09/Aug/23 4:58 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 applications
+ # Click on edit options
+ # Observed the submenu Bar
+ # There is no ""Auto optimize all picture"" options
+
+*Actual Result:* ""Auto optimize all picture"" option is missing when clicking on the edit menu item
+
+*Expected Result:* ""Auto optimize all picture"" option should be displayed in the edit submenu bar when click on it","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 1:37 AM;m.foysal;auto optimized all picture is missing.jpg;https://jira.a1qa.com/secure/attachment/2391612/auto+optimized+all+picture+is+missing.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn4v:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Options: The options dialog is displayed different height and width pixels than the requirement size when clicking on it,QATC-812798,3487251,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,03/Aug/23 1:24 AM,09/Aug/23 4:58 PM,17/Nov/23 9:07 PM,09/Aug/23 4:58 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Click on the options
+ # Observed the dialog pixels' height and width
+
+*Actual Result:* The options dialog is displayed different height and width pixels than the requirement size when clicking on it
+
+*Expected Result:* The Thumbnails size 170*127 px, Big pic size 640*480px, Cover pic size 130*120px  should be displayed by default","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"03/Aug/23 1:23 AM;m.foysal;displayed diffrent size.jpg;https://jira.a1qa.com/secure/attachment/2391606/displayed+diffrent+size.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhn47:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Files: Create Gallery: A folder is created instead of a zip file when clicking on Create Gallery,QATC-812787,3487227,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 11:55 PM,09/Aug/23 4:57 PM,17/Nov/23 9:07 PM,09/Aug/23 4:57 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 applications
+ # Open a image folder 
+ # Click on Create Gallery
+ # Click on Create then click on ok
+ # Check the create file
+ # Observed the result
+
+*Actual Result:* A folder is created instead of a zip file when clicking on Create Gallery
+
+*Expected Result:* A zip file should be created when clicking on the create gallery
+
+*Additional Information:* When unzip the file it's contain three folder 1.Cover 2.Thumbs 3.Big. 
+
+In the cover folder, the cover photo should be displayed when opened it. Thumbs folder all the small images should be displayed and in the Big folder all the big images should be displayed.","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 11:55 PM;m.foysal;Folder is created instead of zip file.jpg;https://jira.a1qa.com/secure/attachment/2391586/Folder+is+created+instead+of+zip+file.jpg","02/Aug/23 11:54 PM;m.foysal;Folder is created instead of zip file.mp4;https://jira.a1qa.com/secure/attachment/2391587/Folder+is+created+instead+of+zip+file.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhmzb:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+File: Create Gallery: Logo is not displayed in the big image folder right top when a gallery is created,QATC-812781,3487220,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 11:41 PM,09/Aug/23 4:57 PM,17/Nov/23 9:07 PM,09/Aug/23 4:57 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 applications
+ # Click on Options
+ # Chose a image form the path logo
+ # Click on apply
+ # Click on file
+ # Click on create gallery
+ # Click on Create
+ # Observed the created image folder
+
+*Actual Result:* Logo is not displayed in the big image folder right top when a gallery is created
+
+*Expected Result:* The selected logo should be displayed at the right top of the big image folder","*OS:* Win 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 11:41 PM;m.foysal;logo is not displayed.mp4;https://jira.a1qa.com/secure/attachment/2391574/logo+is+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhmxr:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+File: Create Gallery: The big picture size is more than 100kb when a  gallery is created,QATC-812777,3487212,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 11:21 PM,09/Aug/23 4:57 PM,17/Nov/23 9:07 PM,09/Aug/23 4:57 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba 2 applications
+ # Click on options
+ # Fixed the size the size for big picture 640*480
+ # Click on apply
+ # Click on File then Click on Create Gallery
+ # Observed the image from the folder
+
+*Actual Result:* The big picture size is more than 100kb when a  gallery is created
+
+*Expected Result:* The big picture size should be less or equal 100kb","*OS:* Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"04/Aug/23 5:33 PM;m.foysal;003_b.jpg;https://jira.a1qa.com/secure/attachment/2392577/003_b.jpg","04/Aug/23 5:33 PM;m.foysal;003_t.jpg;https://jira.a1qa.com/secure/attachment/2392578/003_t.jpg","04/Aug/23 5:33 PM;m.foysal;004_b.jpg;https://jira.a1qa.com/secure/attachment/2392579/004_b.jpg","04/Aug/23 5:33 PM;m.foysal;004_t.jpg;https://jira.a1qa.com/secure/attachment/2392580/004_t.jpg","02/Aug/23 11:20 PM;m.foysal;big image size.jpg;https://jira.a1qa.com/secure/attachment/2391565/big+image+size.jpg","02/Aug/23 11:20 PM;m.foysal;big image size.mp4;https://jira.a1qa.com/secure/attachment/2391564/big+image+size.mp4",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhmvz:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"04/Aug/23 5:33 PM;m.foysal;*Additional Information:* Some thumbnails size is larger than the Big picture size. Thumbnails size should be less the Big picture size. !003_b.jpg!;;;"
+File: Create Gallery: Create gallery is possible when no cover image is selected,QATC-812773,3487205,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 11:00 PM,09/Aug/23 4:57 PM,17/Nov/23 9:07 PM,09/Aug/23 4:57 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open kimba application 
+ # Open a folder with image
+ # Click on create gallery without selecting a cover imge
+ # Observed the result.
+
+*Actual Result:* Create gallery is possible when no cover image is selected
+
+*Expected Result:* Create Gallery option should be displayed a popup message please chose a cover photo when clicking on it.","*OS:* Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 11:00 PM;m.foysal;no cover photo is select.mp4;https://jira.a1qa.com/secure/attachment/2391556/no+cover+photo+is+select.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhmuf:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Files: Create Gallery: The folder is created in the apps installed directory instead of the current image folder when clicking on ""Create  gallery""",QATC-812771,3487195,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 10:49 PM,09/Aug/23 4:57 PM,17/Nov/23 9:07 PM,09/Aug/23 4:57 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open kimba 2 application
+ # Click on File then click on folder
+ # Select a image folder and open it
+ # After fetching the images click on File then click on Create gallery
+ # Then click on Create
+ # Then Click on Ok
+ # Go to the Installed drive find Kimba 
+ # Open the folder and observed the result
+
+*Actual Result:* The folder is created in the apps installed directory instead of the current image folder when clicking on ""Create  gallery""
+
+*Expected Result:* The zip folder ""Current directory/kimba.zip"" should be created in the Opening image folder
+
+ ","{*}OS{*}: Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 10:49 PM;m.foysal;Zip folder should be created.jpg;https://jira.a1qa.com/secure/attachment/2391554/Zip+folder+should+be+created.jpg","02/Aug/23 10:49 PM;m.foysal;Zip folder should be created.mp4;https://jira.a1qa.com/secure/attachment/2391553/Zip+folder+should+be+created.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhms7:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Kimba 2: No toolbar is displayed below the menu items when the  application is opened,QATC-812766,3487162,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 10:25 PM,09/Aug/23 4:56 PM,17/Nov/23 9:07 PM,09/Aug/23 4:56 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba 2 application
+ # Observed the menu items and 
+ # There is no toolbar below the menu items
+
+*Actual Result:* No toolbar is displayed below the menu items when the  application is opened
+
+*Expected Result:* The toolbar should be displayed below  the menu items when the application is opened","*OS:* Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 10:24 PM;m.foysal;Toolbar is not displayed.jpg;https://jira.a1qa.com/secure/attachment/2391543/Toolbar+is+not+displayed.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhmkv:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Uninstallation: During removing process 'Installation is complete' is displayed instead of 'Removing is complete',QATC-812764,3487160,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 10:13 PM,10/Aug/23 4:14 PM,17/Nov/23 9:07 PM,09/Aug/23 4:56 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the kimba setup file
+ # Double-click on kimba2install.msi
+ # Click on remove and the click on the Finished button
+ # Click on Yes
+ # Observed the result
+
+*Actual Result:* During removing a window is displayed installation is complete instead of removing is complete
+
+*Expected Result:* The window should be displayed removing or uninstalling the application is complete","*OS:* Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 10:13 PM;m.foysal;removing time displayed installation is complete.mp4;https://jira.a1qa.com/secure/attachment/2391539/removing+time+displayed+installation+is+complete.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhmkf:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Uninstallation: Installation: The application is displayed the previous open folder images instead of the empty window when opening the application after reinstalling ,QATC-812757,3487145,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 9:56 PM,09/Aug/23 4:56 PM,17/Nov/23 9:07 PM,09/Aug/23 4:56 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Open the Kimba application
+ # Open a folder with images from file menu items
+ # After fetching the image close the window
+ # Uninstalled the application
+ # Reinstalled the application
+ # Open the application
+ # Observed the result
+
+*Actual Result:* The application is displayed the previous open folder images instead of the empty window when opening the application after reinstalling
+
+*Expected result:* The application window should display empty when opening the application after reinstalling
+
+ ","*OS:* Windows 10pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 9:55 PM;m.foysal;Unintalled and reinstalled.mp4;https://jira.a1qa.com/secure/attachment/2391522/Unintalled+and+reinstalled.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhmh3:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Uninstallation: ""KWICK!"" folder is displayed  when the application uninstallation is finished",QATC-812637,3486631,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 2:16 AM,09/Aug/23 4:56 PM,17/Nov/23 9:07 PM,09/Aug/23 4:56 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed kimba2 application successfully
+ # Open kimba2 application from windows search bar
+ # open control panel uninstall a program
+ # Select kimba application right click on it
+ # click on uninstall
+ # click on do not close the application 
+ # Click on Ok 
+ # Go to the C dive and program file x86 click on it
+ # There is a KWICK! folder 
+ # Open the folder and observed the result
+
+*Actual Result:* ""KWICK!"" folder is displayed  when the application uninstallation is finished
+
+*Expected Result:* The folder should be removed when the application is uninstalled","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 2:16 AM;m.foysal;after uninstallation folder is displayed.mp4;https://jira.a1qa.com/secure/attachment/2391121/after+uninstallation+folder+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhjen:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Uninstallation: The open window appears even after uninstalling the application,QATC-812635,3486629,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 1:59 AM,09/Aug/23 4:55 PM,17/Nov/23 9:07 PM,09/Aug/23 4:55 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed the kimba2 application
+ # Open this application from windows search bar
+ # Go to control Panel
+ # Go to programs 
+ # Go to uninstall a programs
+ # Right click on kimba and select uninstall
+ # Click on Ok
+ # Select do not close the application
+ # Then click ok
+ # Observed the result
+
+*Actual Result:* The open window appears even after uninstalling the application
+
+*Expected Result:* The open window should be closed and then uninstalled the applications","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 1:56 AM;m.foysal;window is displayed after uninstall.mp4;https://jira.a1qa.com/secure/attachment/2391119/window+is+displayed+after+uninstall.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhje7:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Installation: The application window is not responsive when maximizing and minimizing the size of the window,QATC-812634,3486624,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 1:10 AM,09/Aug/23 4:55 PM,17/Nov/23 9:07 PM,09/Aug/23 4:55 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed the kimba2 applications successfully
+ # Open the kimba2 application form the window search bar
+ # Maximize and minimize the size of the window
+ # Observed the result
+
+*Actual Result:* The application window is not responsive when maximizing and minimizing the size of the window
+
+*Expected Result:* The application window should be responsive when maximize and minimize the the window","OS: Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 1:10 AM;m.foysal;application is not responsive.mp4;https://jira.a1qa.com/secure/attachment/2391118/application+is+not+responsive.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhjd3:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,"05/Aug/23 12:51 AM;m.foysal;*Severity/Importance:* Average;;;"
+Installation: Multiple window is opened when clicking on the kimba2 application multiple time,QATC-812633,3486622,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 1:02 AM,09/Aug/23 4:55 PM,17/Nov/23 9:07 PM,09/Aug/23 4:55 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed kimba2 application successfully
+ # From the window search bar type kimba2 and click on it
+ # Again click on it
+ # Observed the result
+ # Multiple window is opened
+
+*Actual Result:* Multiple window is opened when clicking on the kimba2 application multiple time
+
+*Expected Result:* Only one window should be opened at a time","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 1:02 AM;m.foysal;window opened multiple time.mp4;https://jira.a1qa.com/secure/attachment/2391114/window+opened+multiple+time.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhjcn:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Installation: After installed version 1.1.0 is displayed instead of 2.0,QATC-812632,3486620,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 12:51 AM,09/Aug/23 4:55 PM,17/Nov/23 9:07 PM,09/Aug/23 4:55 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed successfully kimba2.0 application
+ # Open Control Panel
+ # Click on uninstall a program under the programs
+ # Find Kimba application
+ # Observed the version is displayed
+
+*Actual Result:* After installed version 1.1.0 is displayed instead of 2.0
+
+*Expected Result:* After installed version should be displayed 2.0","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 12:51 AM;m.foysal;Version 1.1.0.jpg;https://jira.a1qa.com/secure/attachment/2391112/Version+1.1.0.jpg","02/Aug/23 12:51 AM;m.foysal;Version 2.0.jpg;https://jira.a1qa.com/secure/attachment/2391111/Version+2.0.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhjcf:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Installation:  There is no option for creating a shortcut desktop icon when installing the application,QATC-812629,3486615,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 12:40 AM,09/Aug/23 4:55 PM,17/Nov/23 9:07 PM,09/Aug/23 4:55 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Double-click on ""Kimba2install.msi
+ # Click on next
+ # Select Everyone radio button
+ # Click on next
+ # Click on next
+ # Click on administrator permission yes
+ # Click on Close
+ # Observed the result
+
+*Actual Result:* There is no option for creating a shortcut desktop icon when installing the application
+
+*Expected Result:* Installation time there should an option to create a shortcut or desktop icon","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 12:40 AM;m.foysal;No shortcut check box.mp4;https://jira.a1qa.com/secure/attachment/2391107/No+shortcut+check+box.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhjbj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"02/Aug/23 12:42 AM;m.foysal;*Additional Information:* After installing also no shortcut option is available;;;"
+Installation: The application icon is not displayed when searching from type here for search bar,QATC-812627,3486611,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 12:31 AM,09/Aug/23 4:54 PM,17/Nov/23 9:07 PM,09/Aug/23 4:54 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Installed successfully in the device
+ # click on start or press the Windows button on the keyboard
+ # Type kimba
+ # Observed the result
+
+*Actual Result:* The application icon is not displayed when searching from type here for search bar
+
+*Expected Result:* The application should be displayed an icon with three colors when searching from search bar","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 12:30 AM;m.foysal;no icon is displayed.mp4;https://jira.a1qa.com/secure/attachment/2391105/no+icon+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idhjan:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Installation: There is no check box in the  Finish installation window to lunch the application when installation is finished,QATC-812626,3486586,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,02/Aug/23 12:13 AM,09/Aug/23 4:54 PM,17/Nov/23 9:07 PM,09/Aug/23 4:54 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Double click on kimba msi installer
+ # Click on next
+ # Select Everyone radio button
+ # Click on next
+ # Click on next
+ # Click on administrator permission yes
+ # Click on Close
+ # Observed the result
+
+*Actual Result:* There is no check box in the  Finish installation window to lunch the application when installation is finished
+
+*Expected Result:* There should be a  check box with a checked mark in the finish installation window.","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"02/Aug/23 12:12 AM;m.foysal;No check box is displayed.mp4;https://jira.a1qa.com/secure/attachment/2391102/No+check+box+is+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhj53:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Installation:  There is no window for license permission when installing the application,QATC-812625,3486583,Bug,Resolved,QATC,Training Center,software,a.golubovich,,,Major,Fixed,,m.foysal,m.foysal,01/Aug/23 11:51 PM,10/Aug/23 4:08 PM,17/Nov/23 9:07 PM,09/Aug/23 4:54 PM,2.0,Kimba,,0,"*Steps to reproduce:*
+ # Double-click on ""Kimba2install.msi
+ # Click on next
+ # Select Everyone radio button
+ # Click on next
+ # Click on next
+ # Click on administrator permission yes
+ # Click on Close
+ # Observed the result
+
+*Actual Result:*  Installation time there is no window for license permission when clicking on all window next button 
+
+*Expected Result:* Installation time there should be a license window with all valid information with two check box.
+
+ ","*OS:* Windows 10 pro, 64-bit",,,,,,,,Leads and Reporter only,"01/Aug/23 11:50 PM;m.foysal;license window is not displayed.mp4;https://jira.a1qa.com/secure/attachment/2391100/license+window+is+not+displayed.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idhj4f:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
