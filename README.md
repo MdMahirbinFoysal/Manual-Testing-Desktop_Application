@@ -14,10 +14,15 @@ The application is for a german audience. Offer a language file for different
 languages. English language has to be provided.
 
 Performed Test:
+
 1.Functional Testing
+
 2.Usability Testing
+
 3.Regression Testing
+
 4.Smoke, MAT, AT
+
 5.Installation and Uninstallation testing
 
 Creating quality Report, Defect Reporting in Jira.
